@@ -1,0 +1,15 @@
+html {
+    font-size: 100%;                // more accessible - lets the user control zoom level
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {            // inherit to all elements
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.3;
+}
